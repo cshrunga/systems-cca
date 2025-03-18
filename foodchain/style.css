@@ -1,0 +1,183 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 72px;
+}
+
+.text {
+  /* background: rgb(57 55 55 / 30%); */
+  display: block;
+  font-size: 20px;
+  margin-bottom: 20px;
+  height: 400px;
+  width: 700px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding: 22px;
+  border-radius: 4px;
+  background-image: url("https://052455360ea5312a1e94-e37cc0cc1f4f256d7f0f6eaf587c9641.ssl.cf1.rackcdn.com/u/stock/shutterstock/Yellowstone.jpg");
+  background-position: center;
+}
+
+.text > p {
+  color: white
+}
+
+.long-text {
+  background: rgb(91 205 100 / 30%);
+  display: block;
+  font-size: 20px;
+  margin-bottom: 20px;
+  height: 400px;
+  width: 700px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding: 22px;
+  border-radius: 4px;
+}
+
+#imbalance-container > .long-text {
+  background-color: rgb(219 154 154 / 30%);
+}
+
+#balance-container > .long-text {
+  background-color: rgb(91 205 100 / 30%);
+}
+
+.long-text > h3 {
+  font-weight: 600;
+}
+
+.long-text > ul,
+.long-text > p {
+  text-align: left;
+}
+
+#controls {
+  display: flex;
+  gap: 20px;
+  /* width: 1400px; */
+  justify-content: center;
+  margin: 0 auto;
+  padding: 6px 0px 6px 20px;
+  border-width: 1px 0px 1px 0px;
+  border-color: black;
+  border-style: solid;
+}
+
+.entity {
+  display: flex;
+  align-items: center;
+}
+
+.space {
+  padding: 8px;
+}
+
+.count {
+  margin-right: 5px;
+  width: 50px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button { 
+}
+
+.name {
+  font-weight: bold;
+}
+
+.link-labels {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+button {
+  margin: 5px;
+  padding: 9px 22px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+svg {
+  /* background: lightgreen; */
+}
+
+.name {
+  font-size: 16px;
+  text-anchor: middle;
+  font-weight: bold;
+}
+
+.simulation-control {
+  margin: 15px 0;
+}
+
+#simulation-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  /* border-radius: 5px; */
+  cursor: pointer;
+  transition: background-color 0.3s;
+  position: absolute;
+  right: 12px;
+}
+
+#simulation-button:hover {
+  background-color: #45a049;
+}
+
+#simulation-button.running {
+  background-color: #f44336;
+}
+
+#simulation-button.running:hover {
+  background-color: #d32f2f;
+}
+
+#simulator {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px 0px;
+  margin: 0 auto;
+  width: 700px;
+}
+
+.result {
+  display: flex;
+  flex-direction: inherit;
+  align-items: center;
+  height: 160px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 800px;
+  /* background-color: rgb(200, 230, 200); */
+}
+
+#with-wolves-container > h2 {
+  margin: 0 auto;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.result > h2 {
+  font-weight: 400;
+  margin: 0 auto;
+}
+
+.nodisplay {
+  display: none;
+}
+
+button {
+  font-family: "Open Sans";
+  font-size: 16px;
+}
